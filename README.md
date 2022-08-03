@@ -11,7 +11,7 @@ Passo 2 - Obter o código de acesso à IBM Cloud:
 
 Passo 3 - Criar usuário na IBM Cloud:
 
-[Link](https://github.com/academic-initiative/documentation/blob/main/academic-initiative/how-to/How-to-create-an-IBM-Cloud-account/readme.md)
+[link](https://github.com/academic-initiative/documentation/blob/main/academic-initiative/how-to/How-to-create-an-IBM-Cloud-account/readme.md)
 
 
 
