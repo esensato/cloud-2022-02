@@ -1,0 +1,32 @@
+openapi: 3.0.1
+info:
+  title: curso-cloud
+  version: '1.0'
+servers:
+  - url: https://us-south.functions.appdomain.cloud/api/v1/web/edson.sensato%40espm.br_dev/default
+security:
+  - {}
+paths:
+  /obterPacotes:
+    post:
+      operationId: obterPacotes
+      summary: obterPacotes
+      responses:
+        '200':
+          description: A successful invocation response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  resultado:
+                    type: array
+                    items: 
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        destino:
+                          type: string
+                        preco:
+                          type: number
